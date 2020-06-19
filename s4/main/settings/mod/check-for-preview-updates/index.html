@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang = "en">
 	<head>
-		<title>Docs - Order: Show Promotions</title>
+		<title>Docs - Sims 4 - Main: Check For Preview Updates</title>
 		<meta charset="utf-8"/>
 		
 		<base href = "../../../../../" />
@@ -65,8 +65,8 @@
 									-->&nbsp;/&nbsp;<!--
 								--></span>
 								
-								<a class = "Document_Breadcrumb_Link" href = "s4\order\index.html"><!--
-									-->Order<!--
+								<a class = "Document_Breadcrumb_Link" href = "s4\main\index.html"><!--
+									-->Main<!--
 								--></a>
 								
 								<span class = "Document_Breadcrumb_Separator"><!--
@@ -82,15 +82,15 @@
 								--></span>
 								
 								<span class = "Document_Breadcrumb"><!--
-									-->Mods<!--
+									-->Mod<!--
 								--></span>
 								
 								<span class = "Document_Breadcrumb_Separator"><!--
 									-->&nbsp;/&nbsp;<!--
 								--></span>
 								
-								<a class = "Document_Breadcrumb_Link" href = "s4\order\settings\mods\show-promotions\index.html"><!--
-									-->Show Promotions<!--
+								<a class = "Document_Breadcrumb_Link" href = "s4\main\settings\mod\check-for-preview-updates\index.html"><!--
+									-->Check For Preview Updates<!--
 								--></a><!--
 						--></div>
 						</div>
@@ -99,15 +99,17 @@
 						
 						<div id = "Documentation_Container" class = "Documentation_Container">
 							<div id = "Documentation" class = "Documentation"><!--
-								--><h1>Show Promotions</h1>
-								<b>Default:</b> Enabled (True)<br />
+								--><h1>Check For Preview Updates</h1>
+								<b>Default:</b> Disabled for all mods<br />
 								
 								<hr />
 								
 								<h2>About</h2>
-								<p>When this option is enabled, Order will check for promotions about new mods, updates to existing mods or more from NeonOcean. Promotions about mods that are already installed on your game will usually never be displayed. Upon finding a promotion to show, a simple notification will be displayed at the top right of the game, this notification can appear only once each game session. In order to check for promotions, the mod will look for a file located at <a href = "https://dist.mods.neonoceancreations.com/promotions/promotions.json">dist.mods.neonoceancreations.com/promotions/promotions.json</a>, this file will be checked 20 seconds after a game session is first started, then once every 30 minutes.</p>
-								<p><b>Note:</b> If the mod Main by NeonOcean is installed, this setting will be ignored as Main will take over promotion checking and will use its own version of this setting.</p>
-								<!--
+								<p>This is a setting that allows you to change whether you are notified of mod preview updates for each mod that uses Main and supports the feature. Upon detecting that a new version is available for download, typically, a simple notification will be displayed at the top right of the game, you should only ever get this once per game session for each mod. For every mod with preview update checking enabled, regular update checking must also be enabled for the checks to occur at all.</p>
+								
+								<h3>Updates From NeonOcean</h3>
+								
+								<p>In order to check for updates from NeonOcean, the mod will look for a file located at <a href = "https://dist.mods.neonoceancreations.com/mods/latest.json">dist.mods.neonoceancreations.com/mods/latest.json</a>, this file will be checked 15 seconds after a game session is first started, then once every 30 minutes.</p><!--
 							--></div>
 						</div><!--
 					--></div>
