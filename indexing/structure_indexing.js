@@ -187,6 +187,29 @@ var StructureIndexing = [
 						]
 					}
 				]
+			},
+			{
+				"Name": "Refer",
+				"Path": "s4/refer/index.html",
+				"StartOpened": false,
+				"Entries": [
+					{
+						"Name": "General",
+						"StartOpened": false,
+						"Entries": [
+							{
+								"Name": "Installation",
+								"Path": "s4/refer/general/installation/index.html",
+								"StartOpened": false
+							},
+							{
+								"Name": "Reporting Bugs",
+								"Path": "s4/refer/general/reporting-bugs/index.html",
+								"StartOpened": false
+							}
+						]
+					}
+				]
 			}
 		]
 	}
